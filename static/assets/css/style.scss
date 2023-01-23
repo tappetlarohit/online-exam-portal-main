@@ -1,0 +1,82 @@
+.btn_sec{
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+}
+@media(max-width:768px){
+    .navbar-brand{
+        img{
+            display: none;
+        }
+    }
+}
+#cmm_bm {
+    padding-top: 4%;
+}
+
+#login_sec {
+
+    // height: 100vh;
+    padding: 5% 0px ;
+
+    .login_sec_main {
+        margin-top: 35px;
+    }
+
+    .login_left {
+        img {
+            width: 100%;
+        }
+    }
+
+    .login_form {
+        margin-top: 30%;
+
+    }
+}
+
+#footer_sec {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    // bottom: 0 !important;
+
+    .footer_sec_title {
+        p {
+            line-height: 20px;
+            padding-top: 15px;
+        }
+
+    }
+}
+
+#studentdetails{
+    height: 100vh;
+    .details_sec{
+        padding: 8% 0px ;
+        text-align: center;
+        img{
+            margin-bottom: 3%
+        }
+    }
+}
+
+#exam_sec{
+    padding: 3% 0px;
+    .questions_sec{
+        margin: 2% 0px;
+        // ---------------------------
+        .all_question_sec{
+            .indiv_questions{
+                margin: 5% 0px;
+            }
+        }
+        
+    }
+}
+#yourresults{
+    .your_grade{
+        margin-top: 3%;
+    }
+}

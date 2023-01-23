@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Exam Admin Portal</title>
+</head>
+
+<body>
+    <nav>
+        <nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img src="assets/images/logo/logo.png" alt="" width="5%"> &nbsp;
+                    Online Exam Portal
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarCollapse" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <!-- <li class="nav-item">
+                            <a href="" class="nav-link active">
+                                Add Professor
+                            </a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a href="admin.html" class="nav-link active">
+                                Add Professor
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="student_report.html" class="nav-link active">
+                                student Report Card
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link active">
+                              logOut
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </nav>
+    <div id="cmm_bm"></div>
+<reprtcard>
+    <div id="reportcard">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="report">
+                        <h1>Detailed Report Card</h1>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card_sec">
+                        <h6>Student Name: Rohith </h6>
+                        <h6>Email ID: Rohith@gmail.com </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table table-bordered">
+                        <thead>
+                          <tr>
+                            <th>S.No</th>
+                            <th>Name Of The student</th>
+                            <th>Subject</th>
+                            <th>Total Score</th>
+                            <th>Total Grade</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td rowspan="3">1</td>
+                            <td rowspan="3">Rohith</td>
+                            <td>Chemistry</td>
+                            <td>10/15</td>
+                            <td rowspan="3">Grade B</td>
+                          </tr>
+                          <tr>
+                      
+                            <td>Physics</td>
+                            <td>10/15</td>
+                          
+                          </tr>
+                          <tr>
+                            <td>English</td>
+                            <td>10/15</td>
+                          </tr>
+        
+                        </tbody>
+                      </table>
+                  </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <button class="btn btn-info">Send Report</button>
+                
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+</reprtcard>
+
+
+    <footer>
+        <div id="footer_sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer_sec_title">
+                            <p>Copy Rights Reserved By Online Exam Portal &#169; 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.js"></script>

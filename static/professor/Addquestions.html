@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Exam Admin Portal</title>
+</head>
+
+<body>
+    <nav>
+        <nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img src="assets/images/logo/logo.png" alt="" width="5%"> &nbsp;
+                    Online Exam Portal
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarCollapse" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <!-- <li class="nav-item">
+                            <a href="" class="nav-link active">
+                                Home
+                            </a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a href="viewquestions.html" class="nav-link active">
+                                View Questions
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="studentsreport.html" class="nav-link active">
+                               Students Reports
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link active">
+                               LogOut
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </nav>
+    <div id="cmm_bm"></div>
+
+    <Add_questions>
+        <div id="questions">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="qustions_title">
+                            <h5>Add Questions Here</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="Update_questions">
+                                <form action="">
+                                    <div class="row">
+                                        <div class="col-md-1">
+                                            <div class="form-group">
+                                                <label for="number">Questions No:</label>
+                                                <input type="number" class="form-control" id="email">
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="Question">Questions</label>
+                                                <input type="text" class="form-control" id="email">
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label for="Question">Option 1 </label>
+                                                <input type="text" class="form-control" id="email">
+                                              </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label for="Question">Option 2 </label>
+                                                <input type="text" class="form-control" id="email">
+                                              </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label for="Question">Option 3 </label>
+                                                <input type="text" class="form-control" id="email">
+                                              </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label for="Question">Option 4 </label>
+                                                <input type="text" class="form-control" id="email">
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <select class="form-control" aria-label="Default select example">
+                                                <option selected>Select Correct Option</option>
+                                                <option value="1">Option 1</option>
+                                                <option value="2">Option 2</option>
+                                                <option value="3">Option 3</option>
+                                                <option value="3">Option 4</option>
+                                            </select>
+                                        </div> 
+                                        
+                                    </div><br>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <button class="btn btn-success">Send Question</button>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Add_questions>
+
+    <footer>
+        <div id="footer_sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer_sec_title">
+                            <p>Copy Rights Reserved By Online Exam Portal &#169; 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.js"></script>

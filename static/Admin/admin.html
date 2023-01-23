@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Exam Admin Portal</title>
+</head>
+
+<body>
+    <nav>
+        <nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img src="assets/images/logo/logo.png" alt="" width="5%"> &nbsp;
+                    Online Exam Portal
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarCollapse" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <!-- <li class="nav-item">
+                            <a href="" class="nav-link active">
+                                Add Professor
+                            </a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a href="viewprofessors.html" class="nav-link active">
+                                View Professor
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="student_report.html" class="nav-link active">
+                                student Report Card
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link active">
+                               logout
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </nav>
+    <div id="cmm_bm"></div>
+
+<professors>
+<div id="professors_sec">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="admin_title">
+                    <h4>Online Exam Admin Portal</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="login_left">
+                    <img src="assets/images/login.webp" alt="" width="100%">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="login_form">
+                    <form action="">
+                       
+                        <h2>Add Propessors</h2>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter Propessors Name"
+                                name="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="uname">User Name</label>
+                            <input type="text" class="form-control" id="uname" placeholder="Enter User Name"
+                                name="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Mobile Number</label>
+                            <input type="number" class="form-control" id="pwd" placeholder="Enter Mobile Number"
+                                name="number">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="date">Date Of Birth</label>
+                            <input type="date" class="form-control" id="date" placeholder="Enter Mobile Number"
+                                name="date">
+                        </div>
+                        <select class="form-control" aria-label="Default select example">
+                            <option selected="">Select Subject</option>
+                            <option value="1">Physics</option>
+                            <option value="2">Chemistry</option>
+                            <option value="3">English</option>
+                          </select>
+                          <br>
+                        <div class="btn_sec">
+                            <button class="btn btn-success" style="float: left;"> <a
+                                    href="admin.html">Add Professor</a> </button>  <br>  <br>
+                            <!-- <button class="btn btn-info" style="float: right;">
+                                <a href="signup.html">Signup Here</a>
+                            </button> -->
+                        </div>
+                      
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</professors>
+
+
+    <footer>
+        <div id="footer_sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer_sec_title">
+                            <p>Copy Rights Reserved By Online Exam Portal &#169; 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.js"></script>
